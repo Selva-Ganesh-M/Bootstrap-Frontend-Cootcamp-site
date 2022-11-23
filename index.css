@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+.card {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.my-nav {
+  z-index: 3;
+  min-width: 360px;
+}
+
+.news-letter-input {
+  max-width: 450px;
+}
+
+.absolute-icon {
+  top: 20px;
+  right: 20px;
+  bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .news-letter-input {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 578px) {
+  .card {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
